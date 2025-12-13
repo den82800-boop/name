@@ -48,7 +48,7 @@ class win(CTk):
         self.length_minutes = 0
 
         self.dunno = 0
-#test1
+
     def play_music(self):
         global music_play
         pygame.mixer.music.load(self.song_name[-1])
@@ -70,6 +70,10 @@ class win(CTk):
             music_play = True
             pygame.mixer.music.play()
             self.play_button.configure(text="⏹")
+
+
+
+            #test
 
 
     def load_file(self):
